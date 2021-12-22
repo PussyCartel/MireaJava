@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.mirea.task11.jtextarea.Controller">
+   <children>
+      <VBox layoutX="185.0" layoutY="162.0" prefHeight="77.0" prefWidth="66.0">
+         <children>
+            <Button fx:id="buttonRed" mnemonicParsing="false" onAction="#onClickRed" prefHeight="25.0" prefWidth="73.0" text="Красный" />
+            <Button fx:id="buttonBlue" mnemonicParsing="false" onAction="#onClickBlue" prefHeight="25.0" prefWidth="75.0" text="Синий" />
+            <Button fx:id="buttonGreen" mnemonicParsing="false" onAction="#onClickGreen" prefHeight="26.0" prefWidth="78.0" text="Зеленый" />
+         </children>
+      </VBox>
+      <VBox layoutX="350.0" layoutY="162.0" prefHeight="77.0" prefWidth="66.0">
+         <children>
+            <Button fx:id="buttonA" mnemonicParsing="false" onAction="#setFontA" prefHeight="27.0" prefWidth="68.0" text="Vernada" />
+            <Button fx:id="buttonB" mnemonicParsing="false" onAction="#setFontB" prefHeight="15.0" prefWidth="71.0" text="Arial" />
+            <Button fx:id="buttonC" mnemonicParsing="false" onAction="#setFontC" prefHeight="26.0" prefWidth="72.0" text="TR" />
+         </children>
+      </VBox>
+      <TextField fx:id="textColor" alignment="CENTER" layoutX="185.0" layoutY="123.0" prefHeight="26.0" prefWidth="66.0" text="Цвет" />
+      <TextField fx:id="textFont" alignment="CENTER" layoutX="350.0" layoutY="124.0" prefHeight="27.0" prefWidth="66.0" text="Шрифт" />
+      <TextArea fx:id="textArea" layoutX="129.0" layoutY="14.0" prefHeight="98.0" prefWidth="342.0" />
+      <Label fx:id="text" layoutX="179.0" layoutY="264.0" prefHeight="77.0" prefWidth="243.0" />
+      <Button fx:id="buttonInput" layoutX="422.0" layoutY="111.0" mnemonicParsing="false" onAction="#inputText" text="Ввод" />
+   </children>
+</Pane>

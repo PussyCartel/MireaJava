@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.eventmouse.HelloController">
+    <children>
+        <Label fx:id="text" alignment="CENTER" layoutX="276.0" layoutY="23.0" text="unknown" />
+        <Button fx:id="buttonCenter" alignment="CENTER" layoutX="270.0" layoutY="190.0" onMouseEntered="#onEnteredCenter" prefHeight="20.0" prefWidth="60.0" text="Center" />
+        <Button fx:id="buttonNorth" alignment="CENTER" layoutX="270.0" layoutY="165.0" onMouseEntered="#onEnteredNorth" prefHeight="20.0" prefWidth="60.0" text="North" />
+        <Button fx:id="buttonSouth" alignment="CENTER" layoutX="270.0" layoutY="215.0" onMouseEntered="#onEnteredSouth" prefHeight="20.0" prefWidth="60.0" text="South" />
+        <Button fx:id="buttonEast" alignment="CENTER" layoutX="330.0" layoutY="190.0" onMouseEntered="#onEnteredEast" prefHeight="20.0" prefWidth="60.0" text="East" />
+        <Button fx:id="buttonWest" alignment="CENTER" layoutX="210.0" layoutY="190.0" onMouseEntered="#onEnteredWest" prefHeight="20.0" prefWidth="60.0" text="West" />
+    </children>
+</Pane>

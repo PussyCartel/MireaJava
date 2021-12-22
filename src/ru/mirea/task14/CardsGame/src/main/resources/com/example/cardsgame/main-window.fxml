@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.cardsgame.Controller">
+   <children>
+      <Button fx:id="addFirst" layoutX="95.0" layoutY="240.0" mnemonicParsing="false" onAction="#onClickFirst" prefHeight="25.0" prefWidth="105.0" text="First add card" />
+      <Button fx:id="addSecond" layoutX="259.0" layoutY="240.0" mnemonicParsing="false" onAction="#onClickSecond" text="Second add card" />
+      <TextField fx:id="addText1" layoutX="95.0" layoutY="200.0" prefHeight="25.0" prefWidth="105.0" />
+      <TextField fx:id="addText2" layoutX="259.0" layoutY="200.0" prefHeight="25.0" prefWidth="105.0" />
+      <Label fx:id="textWinner" layoutX="259.0" layoutY="41.0" prefHeight="25.0" prefWidth="268.0" text="Победитель N кол-во ходов k" />
+      <Button fx:id="buttonStart" layoutX="500.0" layoutY="326.0" mnemonicParsing="false" onAction="#onClickStart" text="Пуск" />
+      <Label fx:id="cardsFirst" layoutX="95.0" layoutY="159.0" prefHeight="25.0" prefWidth="105.0" />
+      <Label fx:id="cardsSecond" layoutX="259.0" layoutY="159.0" prefHeight="25.0" prefWidth="105.0" />
+   </children>
+</Pane>

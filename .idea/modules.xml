@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/JavaFirstMirea.iml" filepath="$PROJECT_DIR$/JavaFirstMirea.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MouseEvent/MouseEvent.iml" filepath="$PROJECT_DIR$/MouseEvent/MouseEvent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tk9/tk9.iml" filepath="$PROJECT_DIR$/tk9/tk9.iml" />
+    </modules>
+  </component>
+</project>
